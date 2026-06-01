@@ -4,7 +4,7 @@ Loads the data2skills unsupervised model at startup.
 Every diagnosis runs actual rule matching — not hardcoded.
 Retrainable when new data arrives.
 """
-
+from __future__ import annotations
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel

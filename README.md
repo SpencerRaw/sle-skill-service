@@ -72,3 +72,26 @@ Response:
 ## License
 
 MIT
+
+## Install
+
+```bash
+git clone https://github.com/SpencerRaw/sle-skill-service.git
+cd sle-skill-service
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python app/main.py
+# Open http://localhost:8000
+# Upload patient data → get phenotype diagnosis + explanation
+```
+
+See [API](#api) section above for programmatic integration.
+
+## Contributing
+
+Issues and PRs welcome. Data from 1,049 SLE patient records — contact for access to the skill extraction pipeline.
